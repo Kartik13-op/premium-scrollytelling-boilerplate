@@ -37,7 +37,7 @@ Open [Example/index.html](Example/index.html) in a modern browser and scroll to 
 
 ## How to use this for your project
 
-1. Prepare your source video and keep it short (3–10s recommended for single-section scrollytelling).
+1. Prepare your source video and keep it short (3–10s recommended for single-section scrollytelling). Take use of AI video generators, create one, and edit it however you like. Prefer putting on text overlays yourselves in video editors.
 
 2. Edit `scripts/video_to_frames.py` if needed:
 
