@@ -79,8 +79,9 @@ const currentFrame = index => `./frames/${index}.webp`;
 
 ## Troubleshooting
 
-- If frames don't appear, confirm `totalFrames` matches the number printed by the extraction script.
+- If frames don't appear, confirm `totalFrames` matches the number printed by the extraction script. If you change 'playbackSpeed' you may need to alter 'totalFrames'.
 - If `cv2` cannot be imported, run `pip install opencv-python`.
+- You may need to wait a bit longer to allow the frame images to load completely.
 
 ## License
 
@@ -89,6 +90,4 @@ This project is released under the MIT License. See [LICENSE](LICENSE) for detai
 ---
 
 If you'd like, I can also:
-- Update `Example/index.html` to include clearer configuration comments
-- Add a small `requirements.txt` and a one-line npm-free demo server command
-Reply with which next step you'd like.
+- Update `Example/index.html` to include clearer configuration comments.
